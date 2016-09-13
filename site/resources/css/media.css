@@ -1,0 +1,171 @@
+@media (max-width:767px)
+{
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand
+    {
+        margin-left: 35px;
+    }
+    .navbar-default .navbar-nav > li > a
+    {
+        margin-left: 63%;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        line-height: 5px;
+        font-size: 18px;
+    }
+    .navbar-nav .open .dropdown-menu
+    {
+        float: right;
+        font-size: 14px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a
+    {
+        line-height: 10px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a
+    {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
+    {
+        background:#E41B17;
+    }
+    .navbar-inverse .navbar-nav > li > a
+    {
+        margin-left: 70%;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        line-height: 5px;
+        font-size: 18px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a
+    {
+        color: #fff;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus
+    {
+        background:#E41B17;
+    }
+    .navbar-default .navbar-toggle:hover .icon-bar,
+    .navbar-default .navbar-toggle:focus .icon-bar
+    {
+        background:#fff;
+    }
+    .contact-us textarea
+    {
+        width: 100%;
+    }
+    .register .col-md-6
+    {
+        width: 48%
+    }
+    .register .col-xs-12
+    {
+        width: 100%;
+    }
+    .patt-holder
+    {
+        margin-left: 60px;
+    }
+    .departments .item .h1
+    {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .departments .item .lead
+    {
+        font-size: 12px;
+    }
+    .graph .faculty-map img
+    {
+        width: 100%;
+    }
+    .timetable .times .row .col-xs-2
+    {
+        border-left: none;
+    }
+    .timetable .times .row .col-xs-2:first-child
+    {
+        border-left: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .graph .faculty-map img
+    {
+        width: 100%;
+    }
+    .register .col-md-6
+    {
+        width: 49%
+    }
+    .register .col-xs-12
+    {
+        width: 100%;
+    }
+    .patt-holder
+    {
+        margin-left: 100px;
+    }
+    .departments .item .h1
+    {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .departments .item .lead
+    {
+        font-size: 14px;
+    }
+    .timetable .times .row .col-xs-2
+    {
+        border-left: none;
+    }
+    .timetable .times .row .col-xs-2:first-child
+    {
+        border-left: none;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px)
+{
+    .register .col-md-6
+    {
+        width: 49%
+    }
+    .patt-holder
+    {
+        margin-left: -35px;
+    }
+    .departments .item .h1
+    {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .departments .item .lead
+    {
+        font-size: 14px;
+    }
+    .timetable .times .row .col-xs-2
+    {
+        border-left: none;
+    }
+    .timetable .times .row .col-xs-2:first-child
+    {
+        border-left: none;
+    }
+}
+
+@media (min-width:1200px)
+{
+    .register .col-md-6
+    {
+        width: 49%
+    }
+    .patt-holder
+    {
+        margin-left: 15px;
+    }
+}

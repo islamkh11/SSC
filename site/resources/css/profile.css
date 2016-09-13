@@ -1,0 +1,634 @@
+body,h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6,.lead,p,span,a
+{
+	font-family: 'Droid Sans', sans-serif ;
+}
+.clear-fix
+{
+	clear: both;
+}
+
+/* Start Tool Box */
+
+.option-box
+{
+    position: fixed;
+    top: 100px;
+    left: 7px;
+    z-index: 9999;
+}
+.option-box .color-option
+{
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+.option-box .color-option ul li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .gear-check
+{
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+/* End Tool Box */
+
+
+/* Start Navbar */
+
+.navbar
+{
+    border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar-nav
+{
+    margin: 0 30px 0 0;
+}
+.navbar-brand
+{
+    padding: 20px 0px;
+}
+.navbar-inverse
+{
+	background: #000;
+	border-color: #000;
+}
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand
+{
+    margin-left: 80px;
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    padding-top: 20px;
+    margin-left:20px;
+    color:#fff;
+    font-size:18px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus
+{
+	background: none;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    color:#fff;
+    background: none;
+    font-size:18px;
+}
+.navbar-right .dropdown-menu
+{
+    left: 20px;
+    right: auto;
+    background: #222;
+	color: #fff;
+}
+.navbar-right .dropdown-menu > li > a
+{
+    color: #fff;
+}
+.navbar-right .dropdown-menu > li > a:hover
+{
+	color: #fff;
+    padding-left: 27px;
+    -webkit-transition:padding .4s ease-in;
+    -moz-transition:padding .4s ease-in;
+    -o-transition:padding .4s ease-in;
+    transition:padding .4s ease-in;
+}
+
+/* End Navbar */
+
+
+/* Start Section ID */
+
+.academic-id
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.academic-id .academic-card
+{
+	border: 1px solid #000;
+	padding-bottom: 30px;
+	background:url("../images/04.png") no-repeat center center;
+	border-radius:25px;
+}
+.academic-id .academic-card h2
+{
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.academic-id .academic-card img
+{
+	border: 1px solid #000;
+	float: left;
+	width: 155px;
+	height: 155px;
+}
+.academic-id .academic-card .info
+{
+	padding: 10px 0 0 5px;	
+}
+.academic-id .academic-card label
+{
+	float: left;
+	font-size: 21px;
+	line-height: 20px;
+	min-width: 80px;
+    text-align: left;
+}
+.academic-id .academic-card .lead
+{
+	line-height: 20px;
+}
+.academic-id .time-table
+{
+	margin-top: 75px;
+}
+.academic-id .time-table .lead
+{
+	color: #000;
+	font-size: 25px;
+}
+.time-table .carousel-inner > .item
+{
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+.time-table .carousel-indicators
+{
+	position: static;
+	width: 0;
+	margin-left: 0;
+}
+
+/* End Section ID */ 
+
+
+/* Start Section Student Data */
+
+.term-data
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #eee;
+}
+.term-data h2
+{
+    color:#444;
+    margin-bottom: 50px;
+}
+.term-data .item
+{
+	margin-bottom: 10px;	
+}
+.term-data .item h4
+{
+	text-align: left;
+	margin-bottom: 10px;
+	color: #666;
+}
+.term-data .item select
+{
+	width: 100%;
+}
+.term-data .item .select2-container .select2-selection--single
+{
+	min-height: 32px
+}
+.term-data .btn-danger,
+.term-data .btn-danger:hover, .term-data .btn-danger:focus, .term-data .btn-danger:active:hover,
+.term-data .btn-danger.active:hover, .term-data .open > .dropdown-toggle.btn-danger:hover, .term-data .btn-danger:active:focus,
+.term-data .btn-danger.active:focus, .term-data .open > .dropdown-toggle.btn-danger:focus, .term-data .btn-danger:active.focus,
+.term-data .btn-danger.active.focus, .term-data .open > .dropdown-toggle.btn-danger.focus
+{
+	margin-top: 20px;
+	padding: 10px 200px;
+	background: none;
+}
+
+/* End Section Student Data */
+
+
+/* Start Section Materials */
+
+.materials
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.materials h2
+{
+	margin-bottom: 30px;
+	color:#333;
+}
+.materials .h2
+{
+	margin-bottom: 30px;
+	margin-left: 20px;
+	text-align: left;
+}
+.materials h3
+{
+	color: #000;
+}
+.materials h4
+{
+	color: #666;
+}
+.materials h3,
+.materials h4
+{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-align: left;
+}
+.materials select
+{
+	width: 100%;
+}
+.materials .choose
+{
+	margin-bottom: 30px;
+}
+.materials .btn-success,
+.materials .btn-success:hover, .materials .btn-success:focus, .materials .btn-success:active:hover,
+.materials .btn-success.active:hover, .materials .open > .dropdown-toggle.btn-success:hover, .materials .btn-success:active:focus,
+.materials .btn-success.active:focus, .materials .open > .dropdown-toggle.btn-success:focus, .materials .btn-success:active.focus,
+.materials .btn-success.active.focus, .materials .open > .dropdown-toggle.btn-success.focus
+{
+	margin-top: 20px;
+	padding: 10px 200px;
+	background: none;
+	border: 2px solid #4cae4c;
+	color: #4cae4c;
+}
+
+/* End Section Materials */
+
+
+/* Start Section Timetable */
+
+.timetable
+{
+    background: url("../images/09.jpg") no-repeat center center fixed ;
+	-webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.timetable .overlay
+{
+	padding-top: 50px;
+	padding-bottom: 75px;
+    background: rgba(2,2,2,0.6);
+	color: #fff;
+}
+.timetable .h1
+{
+	margin-bottom: 50px;
+}
+.timetable .times
+{
+	border-radius: 25px;
+	border: 2px solid #fff;
+	overflow: hidden;
+}
+.timetable .times .row
+{
+	border-bottom: 2px solid #fff;
+	margin-left: 0;
+	margin-right: 0;
+    display: flex;
+}
+.timetable .times .row:last-child
+{
+	border-bottom: none;
+}
+.timetable .times .row .col-xs-2
+{
+	overflow: hidden;
+	border-left: 2px solid #fff;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+.timetable .times .row .col-xs-2:first-child
+{
+	border-left: none;
+}
+.timetable .times .row .col-xs-2:hover
+{
+	background: #fff;
+	color: #000;
+	transform:scale(1.1,1.1);
+	z-index: 99999;
+}
+.timetable .times h3
+{
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.timetable .times h4
+{
+	line-height: 1.5;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+.timetable .times .row .col-xs-2 .place
+{
+	display: none;
+}
+.timetable .times .row .col-xs-2:hover .place
+{
+	display: inherit;
+}
+
+/* End Section Timetable */
+
+
+/* Start Section Favourites */
+
+.favourites
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.favourites .h1
+{
+	margin-bottom: 50px;
+}
+.favourites .carousel-indicators
+{
+    position: inherit;
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+}
+.favourites .carousel-indicators li
+{   margin: 3px;
+    width: 5%;
+    height: 65px;
+    border: 1px solid #222;
+    background: url("../images/08.jpg") no-repeat center center fixed;
+    color: #ddd;
+    opacity: 0.5;
+    text-indent: 0;
+    overflow: hidden;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.favourites .carousel-indicators li:hover
+{
+    width: 30%;
+}
+.favourites .carousel-indicators li.active
+{
+    background: url("../images/08.jpg") no-repeat center center fixed;
+    color: #fff;
+    width: 30%;
+    height: 65px;
+    opacity: 1;
+    -webkit-transform: scale(1,1.1);
+    -moz-transform: scale(1,1.1);
+    -o-transform: scale(1,1.1);
+    transform: scale(1,1.1);
+}
+.favourites .carousel-indicators li p
+{
+    font-size: 18px;
+    line-height: 3.5;
+}
+.favourites .carousel-indicators li.active p
+{
+    font-size: 30px;
+    line-height: 2.1;
+    font-weight: bold;
+}
+.favourites .carousel-control
+{
+    font-size: 45px;
+    opacity: 1;
+}
+.favourites .carousel-control .glyphicon-chevron-left
+{
+    left: 50%;
+    font-size: 36px;
+    line-height: 65px;
+}
+.favourites .carousel-control .glyphicon-chevron-right
+{
+    right: 50%;
+    font-size: 36px;
+    line-height: 65px;
+}
+.favourites .carousel-control,
+.favourites .carousel-control .glyphicon-chevron-left,
+.favourites .carousel-control .glyphicon-chevron-right
+{
+    position: inherit;
+    background-image: none;
+}
+
+/* Start Wrapper for slides */
+
+.favourites .courses-contents
+{
+	border:1px solid #ccc;
+	padding: 10px;
+}
+.favourites .courses-contents .status
+{
+	border:1px solid #ccc;
+	padding:20px;
+    background-color: #fff;
+	margin-bottom:20px;
+}
+.favourites .courses-contents .status textarea
+{
+    resize: none;
+}
+.favourites .courses-contents .upload
+{
+    float: left;
+    margin-right: 10px;
+}
+.favourites .courses-contents .post
+{
+    float: right;
+    width: 25%;
+}
+.favourites .courses-contents input[type="file"]
+{
+    display: none;
+}
+.favourites .courses-contents .btn-danger:hover,
+.favourites .courses-contents .btn-danger:focus
+{
+    color: #fff;
+    background-color: #c9302c;
+    border:1px solid #ac2925;
+}
+.favourites .courses-contents .posts
+{
+    padding: 5px 20px 0;
+    border: 1px solid #ccc;
+	margin-bottom:20px;
+}
+.favourites .courses-contents .posts img
+{
+    width: 25%;
+    height: 50px;
+    float: left;
+    display: block;
+    border: 1px solid #ccc;
+}
+.favourites .courses-contents .posts h4
+{
+    float: left;
+    margin: 15px 5px;
+}
+.favourites .courses-contents .posts .dropdown
+{
+    float: right;
+}
+.favourites .courses-contents .posts .dropdown ul
+{
+    right: 0;
+    left: auto;
+    min-width: 150px;
+}
+.favourites .courses-contents .posts .dropdown-menu > li > a:hover,
+.favourites .courses-contents .posts .dropdown-menu > li > a:focus
+{
+    color: #fff;
+}
+.favourites .courses-contents .posts .btn-default
+{
+    border: none;
+}
+.favourites .courses-contents .posts .post-content
+{
+    padding: 10px;
+    overflow: auto;
+    max-height: 150px;
+}
+.favourites .courses-contents .posts hr
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.favourites .courses-contents .posts .write-comment
+{
+    margin-bottom: 5px;
+}
+.favourites .courses-contents .posts .comments
+{
+    display: none;
+}
+.favourites .courses-contents .posts .comment
+{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.favourites .courses-contents .posts .profil-info
+{
+    margin-bottom: 15px;
+}
+.favourites .courses-contents .posts .comments textarea
+{
+    resize: none;
+}
+
+/* End Section Courses Favourites */
+
+/* End Footer */
+
+
+/* Start Section Copyright */
+
+.copyright
+{
+    background:#000;
+    color:#aaa;
+    padding:10px 0;
+    font-size:18px;
+    bottom: 0px;
+}
+.copyright p
+{
+	margin: 0;
+	text-align: left;
+}
+
+/* End Section Copyright */
+
+
+/* Start Scrollup */
+
+.scroll-top
+{
+    position:fixed;
+    right:15px;
+    bottom:2px;
+    z-index:9999;
+    display: none;
+	border-radius: 25px;
+    cursor:pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.scroll-top:hover
+{
+    color: #fff;
+}
+.scroll-top p
+{
+	float: left;
+	margin: 10px 5px 10px;
+	display: none;
+}
+.scroll-top .fa-3x
+{
+    width:50px;
+    height:50px;
+    color:#fff;
+    text-align:center;
+	font-size: 36px;
+	line-height: 1.2;
+	border-radius: 50%;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.scroll-top .fa-3x:hover
+{
+	background: #fff;
+}
+
+/* End Scrollup */

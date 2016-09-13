@@ -1,0 +1,678 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body
+{
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	
+}
+.navbar-inverse
+{
+	background: #000;
+	border-color: #000;
+}
+.wrapper /*To Make The Background Of the wrapper Selection Navpar white*/
+{
+	background:#FFF;
+	margin-bottom: 42px;
+}
+.divider-solid/*Divider the Black Line ON The Left Hand Side*/
+{
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333333;
+    box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px;
+    padding-top:35px;
+	margin-bottom:35px;
+}
+.panel
+{
+	background:none;
+	border:none;
+}
+.navigation_Selection .nav/*To Make The Background Of Selection Navpar Gray*/
+{
+	background:#888;
+}
+.navigation_Selection .nav
+{
+	text-align: center;
+}
+.nav-tabs > li
+{
+	float: none;
+	display: inline-block;
+}
+.tab-content
+{
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+
+}
+.nav-tabs > li > a
+{
+	color:rgba(255,255,255,1.00);
+    border:none;
+}
+.nav-tabs > li > a:hover
+{
+	background:none;
+}
+.Acount_Setting_Collaps/*To Padding The Total Collaps To Down*/
+{
+	padding-top:50px;
+}
+.Acount_Setting_Collaps .Lift_Div /*left div*/
+{
+	background:#E41B17;
+	padding:30px;
+	margin-bottom:30px;
+}
+.Acount_Setting_Collaps .Lift_Div h3
+{
+	color:#fff;
+}
+.Acount_Setting_Collaps .Lift_Div h4
+{
+	color:#fff;
+}
+.Acount_Setting_Collaps .Lift_Div p
+{
+	color:#eee;
+}
+.Acount_Setting_Collaps .Lift_Div a
+{
+	color:#5897FB;
+	font-weight:bold;
+}
+.Acount_Setting_Collaps .Lift_Div .btn-default/*The botton of the left div (Edit profile)*/
+{
+	background-color:#000;
+	color:#fff;
+	margin-top:20px;
+    padding: 2px 12px;
+    border-color:#000;
+}
+.Acount_Setting_Collaps .Lift_Div .glyphicon-send/*the send icon*/
+{
+    font-size: 33px;
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 60px;
+    text-align: center;
+    height: 64px;
+    width: 64px;
+    color: #000;
+}
+.Acount_Setting_Collaps  .Lift_Div .fa-question/*the question icon*/
+{
+    font-size: 33px;
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 60px;
+    text-align: center;
+    height: 64px;
+    width: 64px;
+    color: #000;
+}
+
+.Acount_Setting_Collaps  .Right_Div/*The tap page height*/
+{
+	height:500px;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-title
+{
+
+}
+.Acount_Setting_Collaps  .Right_Div .panel-default > .panel-heading /*collaps background*/
+{
+	background-color:transparent;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a /*The collaps (<a></a>)*/
+{
+	text-decoration:none;
+	padding-right:600px;
+	color:#337ab7;
+}
+.Acount_Setting_Collaps  .Right_Div .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+	color:#333;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group
+.Acount_Setting_Collaps  .Right_Div .panel-group .panel /*To prevent The border show on top when The collaps open*/
+{
+    border-top:none;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-group .panel
+{
+	border-color:rgba(255,255,255,1.00);
+}
+
+.Acount_Setting_Collaps  .Right_Div form label /*label of the input*/ 
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+}
+form label span /*help title show when hover on the question mark*/
+{
+    background-color: #E41B17;
+    display: inline-block;
+    color: #FFF;
+    font-size: 12px;
+    border-radius: 12px;
+    height: 15px;
+    width: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 17px;
+}
+.Acount_Setting_Collaps  .Right_Div input[type='text']
+{
+	padding: 7px;
+    color: #7f7f7f;
+    font-size: 14px;
+	line-height: 27px;
+	margin-bottom:20px;
+	width:100%;
+    border-radius: 3px;
+    border:1px solid #333;
+}
+.Acount_Setting_Collaps  .Right_Div select[type='text']
+{
+	padding: 7px;
+    color: #7f7f7f;
+    font-size: 14px;
+	line-height: 27px;
+	margin-bottom:20px;
+	width:100%;
+    border-radius: 3px;
+    border:1px solid #333;
+}
+.Acount_Setting_Collaps  .Right_Div input.day
+{
+	width:32.333333%;
+}
+.Acount_Setting_Collaps  .Right_Div .Buttons
+{
+	float:right;
+	margin-top:50px;
+}
+.Acount_Setting_Collaps  .Right_Div .Buttons_3
+{
+	float:right;
+	margin-top:100px;
+}
+.Acount_Setting_Collaps  .Right_Div .btn-primary
+{
+    padding: 2px 12px;
+    background-color:#E41B17;
+    border-color:#E41B17;
+}
+.Acount_Setting_Collaps  .Right_Div .reset
+{
+    border: 0;
+    color: #7F7F7F;
+    background: transparent;
+    font-weight: 400;
+}
+.Acount_Setting_Collaps  .Right_Div .reset:hover
+{
+    background: transparent;
+    color: #0CA7ff;
+    border: 0;
+    box-shadow: none;
+    background-image: none;
+}
+.modal-body
+{
+    text-align: center;
+}
+.modal-body .lead
+{
+	margin-right:20px;
+}
+.modal-body .glyphicon-ok:before/*The icon show in java massege*/
+{
+	color:rgba(0,255,36,1.00);
+	font-size:36px;
+}
+.Acount_Setting_Collaps  .Right_Div .Type ul li /*interest section*/
+{
+	position:relative;
+	display: inline-block;
+}
+.Acount_Setting_Collaps  .Right_Div .Type li input/*interest section*/
+{
+	display:none
+}
+.Acount_Setting_Collaps  .Right_Div .Type input[type='checkbox']/*interest section*/
+{
+	vertical-align: middle;
+}
+.Acount_Setting_Collaps  .Right_Div .Type li label/*interest section*/
+{
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color:#333;
+    border-radius: 2px;
+    padding: 7px 10px;
+    margin: 10px 5px;
+    display: block;
+	color:#fff;
+}
+.Acount_Setting_Collaps  .Right_Div .Type ul li .select_icon/*interest section*/
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+	height:20px;
+	width:20px;
+	background:#E41B17;
+	color:rgba(255,255,255,1.00);
+	border-radius:10px;
+	text-align: center;
+    line-height: 19px;
+}
+.Acount_Setting_Collaps  .Right_Div .btn-group, .btn-group-vertical
+{
+	float:left;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.Privacy_Collaps
+{
+	padding-top:50px;
+}
+.Privacy_Collaps .Lift_Div
+{
+	background:#E41B17;
+	padding:30px;
+	margin-bottom:30px;
+}
+.Privacy_Collaps .Lift_Div h3
+{
+	color:#fff;
+}
+.Privacy_Collaps .Lift_Div h4
+{
+	color:#fff;
+}
+.Privacy_Collaps .Lift_Div p
+{
+	color:#eee;
+}
+.Privacy_Collaps .Lift_Div a
+{
+	color:#5897FB;
+	font-weight:bold;
+}
+.Privacy_Collaps .btn-default
+{
+	background-color:#000;
+	color:#fff;
+	margin-top:20px;
+    padding: 2px 12px;
+    border-color:#000;
+}
+.Privacy_Collaps .fa-question
+{
+    font-size: 33px;
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 60px;
+    text-align: center;
+    height: 64px;
+    width: 64px;
+    color: #000;
+}
+.Privacy_Collaps .glyphicon-send
+{
+    font-size: 33px;
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 60px;
+    text-align: center;
+    height: 64px;
+    width: 64px;
+    color: #000;
+}
+.Privacy_Collaps .Right_Div .Privacy_images  #icon-privacy_1
+{
+	margin:-45px auto;
+    width: 30%;
+}
+ .Privacy_Collaps .Right_Div .Privacy_images #icon-privacy_2
+ {
+	 float:left;
+	margin:-75px auto;
+    width: 30%;
+ }
+  .Privacy_Collaps .Right_Div .Privacy_images #icon-privacy_3
+ {
+	 float:right;
+	margin:-75px auto;
+    width: 30%;
+ }
+ .Privacy_Collaps .Right_Div .Privacy_images .Privacy_text h2
+ {
+	 margin-top:150px;
+	 color:#444;
+ }
+ .Privacy_Collaps .Right_Div .Privacy_images .Privacy_text #p_1
+ {
+	 margin-top:30px;
+	 color:#666;
+	 font-size:16px;
+ }
+.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .Privacy_Edit
+{
+    border: 1px solid #555;
+    padding: 25px 20px 5px 20px;
+    width: 95%;
+    margin: 0 auto;
+	margin-top: 50px;
+    min-height: 140px;
+}
+.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .Privacy_Edit h4
+{
+	color:#E41B17;
+    margin-top: -10px
+}
+.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .Privacy_Edit .p_2
+{
+	font-size:12px;
+	width:60%;
+	display:inline-block;
+	float:left;
+}
+.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .Privacy_Edit .btn-primary
+{
+    padding: 2px 12px;
+    background-color: #E41B17;
+    border-color: #E41B17;
+	float:right;
+	margin-left:50px;
+}
+.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a
+{
+	text-decoration:none;
+	color:#337ab7;
+}
+.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .panel-default > .panel-heading
+{
+    background-color: #FFFFFF;
+    border-color: #FFF;
+}
+.modal-footer .btn + .btn 
+{
+	margin-top:20px;
+    margin-left: 5px;
+}
+.btn-group, .btn-group-vertical
+{
+	float:right;
+}
+.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .Privacy_Edit .modal-body .profile_Information
+{
+    text-align: left;
+}
+.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .Privacy_Edit .modal-body .profile_Information .Phone span
+{
+}
+.Privacy_Collaps .Right_Div .reset /*cancel button*/
+{
+    border: 0;
+    color: #7F7F7F;
+    background: transparent;
+    font-weight: 400;
+}
+.Privacy_Collaps .Right_Div .Right_Div .reset:hover/*cancel button*/
+{
+    background: transparent;
+    color: #0CA7ff;
+    border: 0;
+    box-shadow: none;
+    background-image: none;
+}
+.Notificatin_Collaps
+{
+	padding-top:50px;
+}
+.Notificatin_Collaps .Lift_Div
+{
+	height:500px;
+	background:#E41B17;
+	padding:30px;
+	margin-bottom:30px;
+}
+.Notificatin_Collaps .Lift_Div h3
+{
+	color:#fff;
+}
+.Notificatin_Collaps .Lift_Div p
+{
+	color:#fff;
+}
+.Notificatin_Collaps .Right_Div .scheckbox label, .checkbox label
+{
+    margin-bottom: 10px;
+    margin-top: 30px;
+	margin-left:20px;
+    color: #444;
+    font-weight: bold;
+}
+.Notificatin_Collaps .Right_Div input[type="checkbox"]
+{
+	float:right;
+}
+.Notificatin_Collaps .Right_Div .scheckbox h4
+{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.Notificatin_Collaps .Right_Div .Buttons
+{
+	float:right;
+	margin-top:50px;
+	margin-bottom:25px;
+}
+.Notificatin_Collaps .Right_Div .btn-primary
+{
+    padding: 2px 12px;
+    background-color: #E41B17;
+    border-color: #E41B17;
+}
+.Notificatin_Collaps .Right_Div .reset/*cancel button*/
+{
+    border: 0;
+    color: #7F7F7F;
+    background: transparent;
+    font-weight: 400;
+}
+.Notificatin_Collaps .Right_Div .reset:hover/*cancel button*/
+{
+    background: transparent;
+    color: #0CA7ff;
+    border: 0;
+    box-shadow: none;
+    background-image: none;
+}
+.colors ul /*colors in (Change The Site Color) Collaps*/
+{
+	float:left;
+    list-style: none;
+}
+.colors ul li/*colors in (Change The Site Color) Collaps*/
+{
+	float:left;
+	margin:10px;
+	height:20px;
+	width:20px;
+	border-radius:20px;
+}
+.Color_one
+{
+	background-color:#00f;
+}
+.Color_two
+{
+	background-color:#996F55;
+}
+.Color_three
+{
+	background-color:#E426D5;
+}
+.Color_four
+{
+	background-color:#FF0553;
+}
+.Color_five
+{
+	background-color:#F6FF00;
+}
+.Color_six
+{
+	background-color:#FFD500;
+}
+.Color_seven
+{
+	background-color:#00FF5A;
+}
+.Color_eight
+{
+	background-color:#3E6E14;
+}
+.Color_nine
+{
+	background-color:#81CCFF;
+}
+.Color_ten
+{
+	background-color:#009AFF;
+}
+/* Start Section Copyright */
+
+.copyright
+{
+    background:#000;
+    color:#aaa;
+    padding:10px 0;
+    font-size:18px
+}
+
+/* End Section Copyright */
+
+
+/* Start Scrollup */
+
+.scroll-top
+{
+    color: #E41B17;
+    position:fixed;
+    right:15px;
+    bottom:2px;
+    z-index:9999;
+    display: none;
+	border-radius: 25px;
+    cursor:pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.scroll-top:hover
+{
+	background: #E41B17;
+    color: #fff;
+
+}
+.scroll-top p
+{
+	float: left;
+	margin: 10px 5px 10px;
+	display: none;
+}
+.scroll-top .fa-3x
+{
+    width:50px;
+    height:50px;
+    color:#fff;
+    background:#E41B17;
+    text-align:center;
+	font-size: 36px;
+	line-height: 1.3;
+	border-radius: 50%;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.scroll-top .fa-3x:hover
+{
+	background: #fff;
+	color: #E41B17;
+    border: 1px solid #E41B17;
+}
+
+/* End Scrollup */
+
+@media (max-width:768px)
+{
+	.Privacy_Collaps .Right_Div .Privacy_images #icon-privacy_2
+	 {
+		 float:left;
+		margin:-15px auto;
+		width: 30%;
+	 }
+	.Privacy_Collaps .Right_Div .Privacy_images #icon-privacy_3
+	 {
+		 float:right;
+		margin:-15px auto;
+		width: 30%;
+	 }
+	.Privacy_Collaps .Right_Div .Privacy_text h2
+	 {
+		 margin-top:90px;
+		 font-size:20px;
+		 color:#333;
+	 }
+	.Privacy_Collaps .Right_Div .Privacy_images .Privacy_text .Privacy_Edit
+	{
+		min-height: 160px;
+	}
+}
+
+@media (min-width:769px) and (max-width:991px)
+{
+	 .Privacy_Collaps .Right_Div .radio #icon-privacy_2
+	 {
+		 float:left;
+		margin:-80px auto;
+		width: 30%;
+		color:#333;
+	
+	 }
+	  .Privacy_Collaps .Right_Div .radio #icon-privacy_3
+	 {
+		 float:right;
+		margin:-80px auto;
+		width: 30%;
+	 }
+	  .Privacy_Collaps .Right_Div .Privacy_text h2
+	 {
+		 margin-top:100px;
+		 font-size:20px;
+	 }
+}

@@ -1,0 +1,231 @@
+/* Start Div Sidebar */
+
+.main
+{
+    background: #fff
+}
+.main .sidebar
+{
+	margin-left: -15px;
+    position: relative
+}
+.main .info
+{
+	background: #28292e;
+	color: #fff;
+	padding-top: 20px;
+	max-height: 100px;
+}
+.main .info img
+{
+    top: 50px;
+    left: 75px;
+    width: 50%;
+    border: 5px solid #fff;
+    max-height: 200px;
+}
+.main .content
+{
+	background: #32323a;
+	color: #fff;
+	padding-top: 85px;
+}
+.main .content h4,
+.main .content h5
+{
+    text-transform: uppercase
+}
+.main .content h5
+{
+	margin-bottom: 30px;
+}
+.main .content ul
+{
+	list-style: none;
+	text-align: left;
+	padding: 10px;
+	margin-bottom: 0;
+}
+.main .content li
+{
+	border: 1px solid #ccc;
+    border-radius: 0px 25px 25px 0;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+	color: #999;
+	cursor: pointer;
+    -webkit-transition-property: background, color;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-in-out;  
+    -moz-transition-property: background, color;
+    -moz-transition-duration: 0.4s;
+    -moz-transition-timing-function: ease-in-out;   
+    -o-transition-property: background, color;
+    -o-transition-duration: 0.4s;
+    -o-transition-timing-function: ease-in-out;  
+    transition-property: background, color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.main .content .active,
+.main .content li:hover
+{
+	background: #009aff;
+	color: #fff;
+}
+.main .content li i
+{
+	float: right;
+}
+
+/* End Div Sidebar */
+
+
+/* Start Div Site */
+
+.site
+{
+	padding-top: 40px;
+}
+.site h3
+{
+	margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.site label
+{
+	display: inline-block;
+	min-width: 150px;
+	text-align: left;
+	line-height: 50px;
+}
+.site input,
+.site select
+{
+    display: inline-block;
+	width: 75%;
+	margin-bottom: 30px;
+}
+.site input[type="text"],
+.site input[type="password"],
+.site select
+{
+	height: 50px;
+}
+.site input[placeholder] 
+{
+    width: 25%
+}
+.site .btn-lg,
+.site .btn-group-lg > .btn
+{
+    margin-top: 16px;
+	margin-bottom: 30px;
+    padding: 12px 100px;
+	background: none;
+	font-weight: bold;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.site .btn-primary
+{
+	color: #009aff;
+	border: 2px solid #009aff;
+}
+.site .btn-danger
+{
+	color: #d43f3a;
+	border: 2px solid #d43f3a;
+}
+.site .btn-primary:hover,
+.site .btn-primary:focus
+{
+	background: #009aff;
+	color: #fff;
+	font-weight: bold;
+}
+.site .btn-danger:hover,
+.site .btn-danger:focus
+{
+	background: #d43f3a;
+	color: #fff;
+	font-weight: bold;
+}
+.site .color-info ul
+{
+    display: inline-block;
+    width: 75%;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 10px 0 5px;
+}
+.site .color-info ul li
+{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.site .clicked
+{
+    border-radius: 50%
+}
+.site .display-info ul li,
+.site .language-info ul li
+{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 13px 33px;
+    color: #222;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.site .display-info ul li:hover,
+.site .display-info .active,
+.site .language-info ul li:hover,
+.site .language-info .active
+{
+    background: #009aff;
+    color: #fff;
+    border: 1px solid #009aff;
+}
+.site .display-info .dark,
+.site .language-info .daark
+{
+    background: #fff;
+    color: #222;
+    border: 1px solid #009aff;
+}
+.site .delete-account p
+{
+    margin: 20px 200px
+}
+.site .delete-account textarea
+{
+    width: 550px;
+    height: 225px;
+    margin: auto;
+    resize: none
+}
+.site .basic-info,
+.site .email-info,
+.site .password-info,
+.site .display-info,
+.site .color-info,
+.site .language-info,
+.site .delete-account
+{
+    display: none
+}
+/* End Div Site */

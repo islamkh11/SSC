@@ -1,0 +1,68 @@
+-------------DIR-------------------
+includes :::
+--------------
+init ::
+1_ session :: start session of the intire page 
+2_ define  :: difine some variable to paths
+3_ includes :: pages included
+4_ redirect to index :: deal with logout and session empty 
+5_ DataBase Object :: create database object
+islog ::
+6_ function getLog :: no paremeter ,  return user session name user or patton or False 
+7_ get user lang :: set user info and user lang 
+----------------
+autoloader ::
+1_ autoloader :: include model path by its name 
+----------------
+lang ::
+1_ function lang :: param ph and return araic or english statment depend on $user_lang used in all site not  ( index , science society )
+2_ function :: param ph and return araic or english statment depend on $_GET['user'] used in ( index , science society )
+-------------DIR-------------------
+Site :::
+----------------
+index ::
+1_ control index  :: set var page to index
+2_ init :: include init page 
+3_ check user login :: if user login redir to profile page
+4_ includes views :: include header and features
+5_ work on statis :: get number of ( username , login = T , comments ) then include statis
+6_ work on rate :: get ( site opinion - average of site rate ) then include rate 
+7_ includes  :: incude contact - footer
+----------------
+faculty_of_science ::
+1_ control faculity_of_science :: set var page to faculty of science
+2_ includes :: include init 
+3_ get vars :: get all in table [ branches - infograph - banner - prof ]
+4_ includes :: include [ header - accordion - infograph - dep - prof - footer]
+----------------
+registration ::
+1_ control registration :: set page var to registration and include init
+2_ deal check login :: if submit form login include checklogin 
+3_ includes ::  include [ header - signup - login - footer ]
+-------------
+Profile ::
+1_ control profile :: set page var to profile and include init
+2_ set member information :: get member data by getLog () the set session of color , lang , pict 
+                             get courses code registed by member username
+3_ site news :: get all new where lang equal user lang
+4_ time table :: - get all info of courses registed by user 
+                 - set arrays of time table in keys days and houres values name and place
+                 - set courses info array on time table array by days and houres ( set name of course arabic or english name due to userlang )
+5_ fav posts :: - get all fav post id's where username equal getLog()
+                - for all fav post get entir post data if there is no Data for post put removed post array 
+6_ views :: include [ headerInner - academic-id - data - timetable - if ( new sim in site == T ) data - fav - footerInner ]
+----------------
+Courses ::
+1_ courses Controll :: set page var to courses - include init 
+2_ submit new multimedia ::
+3_ add new post :: if (new post) [ set new post info in array - check validation - add to database ]
+4_ add new resource :: if (new resourse) [ set type of resource (book - lecture - multimedia - resources) - uploud file - set array of input - add data]
+5_ add new course cover :: if (new cover and is patton) [ add file pict - update course with new cover]
+6_ SET CONTENT OF COURSES VIEW ::get courses codes registed by user 
+                               - for each course get [ title - if ( stat var = [book - lecture - resource])
+                                                               set content elemet to get resources by type stat
+                                                               else set content elements to get posts
+                                                              - get content elemnts pict ]
+7_
+8_
+9_

@@ -1,0 +1,22 @@
+------------------
+index :: 
+site [ title - logo - mini logo - brand - map - copy ]
+features [ title - type - desq ]
+team [ pict - name - f - t - g - work field ]
+contact [ username - email - message ]
+------------------
+faculity of sc ::
+dep banner [ title - desq - banners ]
+prof [ title - desq - pict]
+------------------
+1_ add new post (T)
+2_ show posts   (T)
+ _ add comment  (T)
+ _ view comment (T)
+3_ add post to fav (T)
+4_ 
+------------------
+morsy notes ::
+1_ sign X on system message
+2_ login pattern answer be exit the js
+3_ the background of regist ruch in message

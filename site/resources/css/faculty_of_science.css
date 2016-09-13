@@ -1,0 +1,720 @@
+body,h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6,.lead,p,span,a
+{
+	font-family: 'Droid Sans', sans-serif ;
+}
+.clear-fix
+{
+    clear: both;
+}
+
+/* Start Tool Box */
+
+.option-box
+{
+    position: fixed;
+    top: 100px;
+    left: 7px;
+    z-index: 9999;
+}
+.option-box .color-option
+{
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+.option-box .color-option ul li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .gear-check
+{
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+/* End Tool Box */
+
+
+/* Start Navbar */
+
+.navbar
+{
+    border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar-nav
+{
+    margin: 0 30px 0 0;
+}
+.navbar-brand
+{
+    padding: 20px 0px;
+}
+.navbar-inverse
+{
+	background: #000;
+	border-color: #000;
+}
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand
+{
+    margin-left: 80px;
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    padding-top: 20px;
+    margin-left:20px;
+    color:#fff;
+    font-size:18px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus
+{
+	background: none;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    color:#fff;
+    background: none;
+    font-size:18px;
+}
+.navbar-right .dropdown-menu
+{
+    left: 20px;
+    right: auto;
+    background: #222;
+	color: #fff;
+}
+.navbar-right .dropdown-menu > li > a
+{
+    color: #fff;
+}
+.dropdown-menu > li > a:hover
+{
+	color: #fff;
+    padding-left: 27px;
+    -webkit-transition:padding .4s ease-in;
+    -moz-transition:padding .4s ease-in;
+    -o-transition:padding .4s ease-in;
+    transition:padding .4s ease-in;
+}
+
+/* End Navbar */
+
+
+/* Start Section Accordion */
+
+.accordion
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+.accordion h2
+{
+    margin-bottom: 50px;
+    font-weight: bold
+}
+.accordion .contents 
+{
+    margin-left: 25px;
+}
+.accordion .contents .item
+{
+    width: 14.5%;
+    height: 500px;
+    line-height: 500px;
+    float: left;
+    background: #eee;
+    color: #999;
+    cursor: pointer;
+    border-right: 1px solid #fff;
+}
+.accordion .contents .item:first-of-type
+{
+    background: url("../images/accordion/01.jpg") center center;
+}
+.accordion .contents .item:nth-of-type(3)
+{
+    background: url("../images/accordion/02.jpg") center center;
+}
+.accordion .contents .item:nth-of-type(5)
+{
+    background: url("../images/accordion/03.jpg") center center;
+}
+.accordion .contents .item:nth-of-type(7)
+{
+    background: url("../images/accordion/01.jpg") center center;
+}
+.accordion .contents .active
+{
+    box-shadow: 0px 0px 10px #3d6bd1;
+    border-right: 1px solid #3d6bd1;
+    color: #fff;
+}
+.accordion .contents .info
+{
+    padding: 20px 5px;
+    height: 500px;
+    float: left;
+    background: #ddd;
+    display: none;
+}
+
+/* End Section Accordion */
+
+
+
+/* Start Section InfoGraph */
+
+.infograph
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    transition: all 0.7s ease-in-out
+}
+.infograph h2
+{
+    margin-bottom: 20px;
+}
+.infograph .level div
+{
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+}
+.infograph .level .active
+{
+    height: 250px;
+}
+.infograph .faculty,
+.infograph .first-level,
+.infograph .second-level,
+.infograph .third-level,
+.infograph .fourth-level
+{
+    width: 100%;
+    height: 200px;
+    color: #fff;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+}
+.infograph .faculty:after,
+.infograph .first-level:after,
+.infograph .second-level:after,
+.infograph .third-level:after,
+.infograph .fourth-level:after
+{
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    content: "";
+    border-left: 82px solid transparent;
+    border-right: 82px solid transparent;
+}
+.infograph .faculty
+{
+    background: -moz-linear-gradient(top , #ef4433 10%, #dc153e);
+    background: linear-gradient(to bottom , #ef4433 10%, #dc153e);
+}
+.infograph .faculty:after
+{
+    border-top: 50px solid #dc153e;
+}
+.infograph .first-level
+{
+    background: -moz-linear-gradient(top , #ffd600 10%, #fba01c);
+    background: linear-gradient(to bottom , #ffd600 10%, #fba01c);
+}
+.infograph .first-level:after
+{
+    border-top: 50px solid #fba01c;
+}
+.infograph .second-level
+{
+    background: -moz-linear-gradient(top , #01b2c2 10%, #019f9e);
+    background: linear-gradient(to bottom , #01b2c2 10%, #019f9e);
+}
+.infograph .second-level:after
+{
+    border-top: 50px solid #019f9e;
+}
+.infograph .third-level
+{
+    background: -moz-linear-gradient(top , #755fa7 10%, #4c4190);
+    background: linear-gradient(to bottom , #755fa7 10%, #4c4190);
+}
+.infograph .third-level:after
+{
+    border-top: 50px solid #4c4190;
+}
+.infograph .fourth-level
+{
+    background: -moz-linear-gradient(top , #a2cc3a 10%, #34b34c);
+    background: linear-gradient(to bottom , #a2cc3a 10%, #34b34c);
+}
+.infograph .fourth-level:after
+{
+    border-top: 50px solid #34b34c;
+}
+.infograph h3
+{
+    font-size: 31px;
+    text-shadow: 5px 5px 20px #000;
+}
+.infograph .contents
+{
+    padding-top: 70px;
+}
+.infograph .contents div
+{
+    min-height: 300px;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 20px;
+}
+.infograph .contents div:not(:first-of-type)
+{
+    display: none
+}
+/* End Section InfoGraph */
+
+
+/* Start Section Departments */
+
+.departments .carousel-indicators
+{
+	bottom: 20px;
+}
+.departments .carousel-inner .item img
+{
+	width: 100%;
+	max-height: 615px;
+}
+.departments .carousel-caption
+{
+	background: rgba(2,2,2,0.5);
+}
+.departments .item .h1
+{
+	margin-bottom: 25px;
+}
+.departments .item .lead
+{
+	font-size: 18px;
+	color: #eee;
+}
+
+/* End Section Departments */
+
+
+/* Start Section Our Professors */
+
+.our-professors
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.our-professors .h1
+{
+    font-size: 36px;
+    color: #000;
+    margin-bottom:50px;
+}
+.our-professors .lead
+{
+	color: #555;
+    font-size: 20px;
+    line-height:1.5em;
+    margin-bottom:30px;
+}
+.our-professors span
+{
+    font-size:20px;
+    font-weight:bold
+}
+.our-professors .carousel-inner
+{
+    min-height:160px;
+}
+.our-professors .carousel-indicators
+{
+    position:static;
+    width:100%;
+    margin-left:auto;
+    padding-top:30px
+}
+.our-professors .carousel-indicators li
+{
+    text-indent:0;
+    width:80px;
+    height:80px;
+    opacity:0.4;
+    border: 2px solid #eee;
+    border-radius:50%;
+    overflow:hidden;
+    margin:5px;
+    -webkit-transition:all .7s ease-in-out;
+    -moz-transition:all .7s ease-in-out;
+    -o-transition:all .7s ease-in-out;
+    transition:all .7s ease-in-out;
+}
+.our-professors .carousel-indicators li.active
+{
+    opacity:1;
+    background:none;
+}
+.our-professors .carousel-indicators li img
+{
+    max-width:100%
+}
+
+/* End Section Our Professors */
+
+
+/* End Section Slider */
+
+.slider .carousel-inner > .item > img
+{
+	width: 100%;
+	max-height: 500px;
+}
+
+/* End Section Slider */
+
+
+/* Start Section Graph */
+
+.graph
+{
+	background: url("../images/departments.jpg") no-repeat center center;
+	min-height:500px;
+	-webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.graph .dark-cover
+{
+	background: rgba(2,2,2,0.86);
+	min-height:500px;
+}
+.graph .faculty-map
+{
+	padding-top: 45px;
+}
+.graph .faculty-map img
+{
+	width: 53%;
+}
+
+/* End Section Graph */
+
+
+/* Start Footer */
+
+.show-footer
+{
+    width: 70px;
+    height: 70px;
+    bottom: -40px;
+    position: fixed;
+    left: 47%;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: bottom 0.5s;
+    -moz-transition: bottom 0.5s;
+    -o-transition: bottom 0.5s;
+    transition: bottom 0.5s;
+    cursor: pointer;
+	z-index: 999999;
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 0px;
+    height: 50px;
+    background-color: #020B13;
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+    z-index: 9999999;
+}
+.show-footer.active
+{
+    bottom: 10px;
+}
+.show-footer.active + footer
+{
+    max-height: 50px;
+}
+footer form
+{
+    padding: 8px;
+}
+footer .fa-2x
+{
+    font-size: 32px;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+}
+footer .dropdown-menu
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 120%;
+    left: -10%;
+    background: #ddd;
+}
+footer .dropdown-menu ul
+{
+	list-style: none;
+	padding-left: 0;
+}
+footer .dropdown-menu li
+{
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    margin-bottom: 5px;
+	cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+footer .dropdown-menu ul > li > a:hover,
+footer .dropdown-menu ul > li:hover a,
+footer .dropdown-menu ul > li:hover 
+{
+    color: #fff;
+}
+footer .dropdown-menu .profile-info
+{
+    cursor: pointer;
+	position: relative;
+}
+footer .dropdown-menu ul li img
+{
+    background: #fff;
+	width: 100%;
+    height: 100px;
+    display: block;
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+}
+footer .dropdown-menu ul li h5
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(2,2,2,0.6);
+	color: #eee;
+    padding: 10px 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+footer .dropdown-menu ul li .message
+{
+    padding: 20px 30px 0 0;
+}
+footer .dropdown-menu ul li p
+{
+    text-align: center;
+    margin: 0 0 20px;
+	font-size: 16px;
+}
+footer .dropdown-menu ul li a:hover
+{
+    text-decoration: none;
+}
+footer .dropdown-menu textarea
+{
+	resize: none;
+	min-height: 82px;
+}
+footer .messages,
+footer .notification,
+footer .chat,
+footer .setting
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 400%;
+    max-height: 500px;
+    left: -150%;
+    background: #fff;
+    overflow-y: auto;
+	overflow-x: hidden;
+}
+footer .chat ul li
+{
+	padding: 5px;
+}
+footer .chat ul li img
+{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+footer .chat .user-name
+{
+	float: left;
+}
+footer .chat .user-name:hover
+{
+	background: #42a5f5
+}
+footer .chat .me:hover
+{
+	background: #E41B17
+}
+footer .chat .me,
+footer .chat .me img
+{
+	float: right;
+}
+footer .chat .form-group
+{
+	margin-bottom: 0;
+}
+footer .settings
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 100%;
+    left: -15%;
+    background: #fff;
+}
+footer .setting ol
+{
+	padding-top: 25px;
+}
+footer .setting ol li
+{
+	border: none;
+	position: relative;
+}
+footer .setting ol li:before
+{
+    content: ""   
+}
+footer .settings form
+{
+	display: inline-flex;
+	padding: 0 10px;
+}
+footer .setting ol li textarea
+{
+	width: 230%;
+}
+footer .setting ol .close
+{
+	position: absolute;
+    top: 0;
+    right: 33px;
+}
+footer .setting ol .close i
+{
+	color: #E41B17
+}
+footer .setting ol .add
+{
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+footer .setting ol .add i
+{
+	color: #999;
+}
+
+/* End Footer */
+
+
+/* Start Section Copyright */
+
+.copyright
+{
+    background:#000;
+    color:#aaa;
+    padding:10px 0;
+    font-size:18px
+}
+.copyright p
+{
+	margin: 0;
+	text-align: left;
+}
+
+/* End Section Copyright */
+
+
+/* Start Scrollup */
+
+.scroll-top
+{
+    position:fixed;
+    right:15px;
+    bottom:2px;
+    z-index:9999;
+    display: none;
+	border-radius: 25px;
+    cursor:pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.scroll-top:hover
+{
+    color: #fff;
+}
+.scroll-top p
+{
+	float: left;
+	margin: 10px 5px 10px;
+	display: none;
+}
+.scroll-top .fa-3x
+{
+    width:50px;
+    height:50px;
+    color:#fff;
+    text-align:center;
+	font-size: 36px;
+	line-height: 1.2;
+	border-radius: 50%;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.scroll-top .fa-3x:hover
+{
+	background: #fff;
+}
+
+/* End Scrollup */

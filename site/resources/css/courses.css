@@ -1,0 +1,531 @@
+body,h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6,.lead,p,span,a
+{
+	font-family: 'Droid Sans', sans-serif ;
+}
+.clear-fix
+{
+    clear: both;
+}
+
+/* Start Tool Box */
+
+.option-box
+{
+    position: fixed;
+    top: 100px;
+    left: 7px;
+    z-index: 9999;
+}
+.option-box .color-option
+{
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+.option-box .color-option ul li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .gear-check
+{
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+/* End Tool Box */
+
+
+/* Start Navbar */
+
+.navbar
+{
+    border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar-nav
+{
+    margin: 0 30px 0 0;
+}
+.navbar-brand
+{
+    padding: 20px 0px;
+}
+.navbar-inverse
+{
+	background: #000;
+	border-color: #000;
+}
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand
+{
+    margin-left: 80px;
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    padding-top: 20px;
+    margin-left:20px;
+    color:#fff;
+    font-size:18px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus
+{
+	background: none;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    color:#fff;
+    background: none;
+    font-size:18px;
+}
+
+/* End Navbar */
+
+
+/* Start Section Our Courses  */
+
+.our-courses
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.our-courses .carousel-indicators
+{
+    position: inherit;
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+}
+.our-courses .carousel-indicators li
+{
+    width: 5%;
+    height: 65px;
+    border: 1px solid #222;
+    background: url("../images/07.png") no-repeat center center fixed;
+    color: #ddd;
+    opacity: 0.5;
+    text-indent: 0;
+    overflow: hidden;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.our-courses .carousel-indicators li:hover
+{
+    width: 30%;
+}
+.our-courses .carousel-indicators li.active
+{
+    background: url("../images/07.png") no-repeat center center fixed;
+    color: #fff;
+    width: 30%;
+    height: 65px;
+    opacity: 1;
+    -webkit-transform: scale(1,1.1);
+    -moz-transform: scale(1,1.1);
+    -o-transform: scale(1,1.1);
+    transform: scale(1,1.1);
+}
+.our-courses .carousel-indicators li p
+{
+    font-size: 18px;
+    line-height: 3.5;
+}
+.our-courses .carousel-indicators li.active p
+{
+    font-size: 30px;
+    line-height: 2.1;
+    font-weight: bold;
+}
+.our-courses .carousel-control
+{
+    font-size: 45px;
+    opacity: 1;
+}
+.our-courses .carousel-control .glyphicon-chevron-left
+{
+    left: 50%;
+    font-size: 36px;
+    line-height: 3;
+}
+.our-courses .carousel-control .glyphicon-chevron-right
+{
+    right: 50%;
+    font-size: 36px;
+    line-height: 3;
+}
+.our-courses .carousel-control,
+.our-courses .carousel-control .glyphicon-chevron-left,
+.our-courses .carousel-control .glyphicon-chevron-right
+{
+    position: inherit;
+    background-image: none;
+}
+ 
+/* Start Wrapper for slides */
+
+.our-courses .courses-contents
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.our-courses .courses-contents .status
+{
+	border:1px solid #ccc;
+	padding:20px;
+    background-color: #fff;
+	margin-bottom:20px;
+}
+.our-courses .courses-contents .status textarea
+{
+    resize: none;
+}
+.our-courses .courses-contents .upload
+{
+    float: left;
+    margin-right: 10px;
+}
+.our-courses .courses-contents .post
+{
+    float: right;
+    width: 25%;
+}
+.our-courses .courses-contents input[type="file"]
+{
+    display: none;
+}
+.our-courses .courses-contents .btn-danger:hover,
+.our-courses .courses-contents .btn-danger:focus
+{
+    color: #fff;
+    background-color: #c9302c;
+    border:1px solid #ac2925;
+}
+.our-courses .courses-contents .posts
+{
+    padding: 20px;
+    border: 1px solid #ccc;
+	margin-bottom:20px;
+}
+.our-courses .courses-contents .posts img
+{
+    width: 15%;
+    height: 75px;
+    float: left;
+    display: block;
+    border: 1px solid #ccc;
+}
+.our-courses .courses-contents .posts h4
+{
+    float: left;
+    margin: 25px 10px;
+}
+.our-courses .courses-contents .posts .dropdown
+{
+    float: right;
+}
+.our-courses .courses-contents .posts .dropdown ul
+{
+    right: 0;
+    left: auto;
+    min-width: 150px;
+}
+.our-courses .courses-contents .posts .dropdown-menu > li > a:hover,
+.our-courses .courses-contents .posts .dropdown-menu > li > a:focus
+{
+    color: #fff;
+}
+.our-courses .courses-contents .posts .btn-default
+{
+    border: none;
+}
+.our-courses .courses-contents .posts .post-content
+{
+    padding: 10px;
+    height: 150px;
+}
+.our-courses .courses-contents .posts .write-comment
+{
+    margin-bottom: 5px;
+}
+.our-courses .courses-contents .posts .comments
+{
+    display: none;
+}
+.our-courses .courses-contents .posts .comment
+{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.our-courses .courses-contents .posts .profil-info
+{
+    margin-bottom: 15px;
+}
+.our-courses .courses-contents .posts .comments textarea
+{
+    resize: none;
+}
+
+/* End section Our Courses */
+
+
+/* Start Footer */
+
+.show-footer
+{
+    width: 70px;
+    height: 70px;
+    bottom: -40px;
+    position: fixed;
+    left: 47%;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: bottom 0.5s;
+    -moz-transition: bottom 0.5s;
+    -o-transition: bottom 0.5s;
+    transition: bottom 0.5s;
+    cursor: pointer;
+	z-index: 999999;
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 0px;
+    height: 50px;
+    background-color: #000;
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+    z-index: 9999999;
+}
+.show-footer.active
+{
+    bottom: 10px;
+}
+.show-footer.active + footer
+{
+    max-height: 50px;
+}
+footer form
+{
+    padding: 8px;
+}
+footer .fa-2x
+{
+    font-size: 32px;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+}
+footer .dropdown-menu
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 120%;
+    left: -10%;
+    background: #ddd;
+}
+footer .settings
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 100%;
+    left: 1%;
+    background: #ddd;
+}
+
+footer .notification
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 300%;
+    max-height: 500px;
+    left: -91%;
+    background: #ddd;
+    overflow: auto;
+}
+footer .dropdown-menu ul
+{
+	list-style: none;
+	padding-left: 0;
+}
+footer .dropdown-menu .profile-info
+{
+    cursor: pointer;
+	position: relative;
+}
+footer .dropdown-menu ul li h5
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(2,2,2,0.6);
+	color: #eee;
+    padding: 10px 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+footer .dropdown-menu ul li img
+{
+    background: #fff;
+	width: 100%;
+    height: 100px;
+    display: block;
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+}
+footer .dropdown-menu ul li .message
+{
+    padding: 20px 30px 0 0;
+}
+footer .dropdown-menu ul li p
+{
+    text-align: center;
+    margin: 0 0 20px;
+	font-size: 16px;
+}
+footer .dropdown-menu .profile-info
+{
+    cursor: pointer;
+	position: relative;
+}
+footer .dropdown-menu li
+{
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+footer .dropdown-menu > li > a:hover,
+footer .dropdown-menu > li:hover 
+{
+    color: #fff;
+}
+footer .dropdown-menu > li:hover img
+{
+    border: 1px solid #555;
+}
+footer .dropdown-menu .profile-info
+{
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+footer .dropdown-menu li img
+{/*
+    background: #fff;
+    width: 30%;
+    height: 75px;
+    float: left;
+    display: block;
+    border: 1px solid #ccc;
+    margin-right: 5px;*/
+}
+footer .dropdown-menu li h5
+{
+    padding: 10px;
+}
+footer .dropdown-menu li p
+{
+    text-align: center;
+    margin: 0 0 20px;
+}
+footer .dropdown-menu li a
+{
+    cursor: pointer;
+}
+footer .dropdown-menu li a:hover
+{
+    text-decoration: none;
+}
+
+/* End Footer */
+    
+    
+/* Start Section Copyright */
+
+.copyright
+{
+    background:#000;
+    color:#aaa;
+    padding:10px 0;
+    font-size:18px
+}
+.copyright p
+{
+	margin: 0;
+	text-align: left;
+}
+
+/* End Section Copyright */
+
+
+/* Start Scroll Up */
+
+.scroll-top
+{
+    position:fixed;
+    right:15px;
+    bottom:2px;
+    z-index:9999;
+    display: none;
+	border-radius: 25px;
+    cursor:pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.scroll-top:hover
+{
+    color: #fff;
+}
+.scroll-top p
+{
+	float: left;
+	margin: 10px 5px 10px;
+	display: none;
+}
+.scroll-top .fa-3x
+{
+    width:50px;
+    height:50px;
+    color:#fff;
+    text-align:center;
+	font-size: 36px;
+	line-height: 1.2;
+	border-radius: 50%;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.scroll-top .fa-3x:hover
+{
+	background: #fff;
+}
+
+/* End Scroll Up */

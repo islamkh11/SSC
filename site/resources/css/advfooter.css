@@ -1,0 +1,376 @@
+/* Start Footer */
+
+.show-footer
+{
+    width: 75px;
+    height: 75px;
+    bottom: -40px;
+    position: fixed;
+    left: 47%;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: bottom 0.5s;
+    -moz-transition: bottom 0.5s;
+    -o-transition: bottom 0.5s;
+    transition: bottom 0.5s;
+    cursor: pointer;
+	z-index: 999999;
+}
+.show-footer i
+{
+	position: absolute;
+    bottom: 40px;
+    left: 33%;
+    font-size: 24px;
+	cursor: pointer;
+	-webkit-animation: sink .4s 0s alternate ease-in-out infinite ;    
+	-moz-animation: sink .4s 0s alternate ease-in-out infinite ;    
+	-o-animation: sink .4s 0s alternate ease-in-out infinite ;    
+	animation: sink .4s 0s alternate ease-in-out infinite ;    
+}
+@-webkit-keyframes sink
+{
+  0%
+  {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100%
+  {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@-moz-keyframes sink
+{
+  0%
+  {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100%
+  {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@-o-keyframes sink
+{
+  0%
+  {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100%
+  {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@keyframes sink
+{
+  0%
+  {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+
+  100%
+  {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 0px;
+    height: 50px;
+    background-color: #020B13;
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+    z-index: 9999999;
+}
+.show-footer.active
+{
+    bottom: 12px;
+}
+.show-footer.active + footer
+{
+    max-height: 50px;
+}
+footer form
+{
+    padding: 8px;
+}
+footer .fa-2x
+{
+    font-size: 32px;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+}
+footer .dropdown-menu
+{
+    bottom: 140%;
+    top: inherit;
+    min-width: 120%;
+    left: -10%;
+    background: #ddd;
+    border: 2px solid #009aff;
+}
+footer .dropdown-menu ul
+{
+	list-style: none;
+	padding-left: 0;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+footer .dropdown-menu li
+{
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    margin-bottom: 5px;
+	cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+footer .dropdown-menu ul > li > a:hover,
+footer .dropdown-menu ul > li:hover a,
+footer .dropdown-menu ul > li:hover 
+{
+    background: #f6f7f9;
+    color: #000;
+}
+footer .dropdown-menu .profile-info
+{
+    cursor: pointer;
+	position: relative;
+}
+footer .dropdown-menu ul li img
+{
+    background: #fff;
+	width: 100%;
+    height: 75px;
+    display: block;
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+}
+footer .dropdown-menu ul li h5
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(2,2,2,0.6);
+	color: #eee;
+    padding: 10px 0;
+	margin-bottom: 0;
+    font-size: 8px;
+	text-align: center;
+}
+footer .dropdown-menu ul li .message
+{
+    max-height: 60px;
+    overflow: hidden;
+    margin-left: -25px;
+}
+footer .dropdown-menu ul li p
+{
+    padding: 5px;
+	font-size: 12px;
+    text-align: left;
+}
+footer .dropdown-menu ul li a:hover
+{
+    text-decoration: none;
+}
+footer .dropdown-menu hr
+{
+    margin: 0
+}
+footer .dropdown-menu textarea
+{
+	resize: none;
+    padding: 0 6px;
+}
+footer .messages,
+footer .notification,
+footer .chat,
+footer .setting
+{
+    min-width: 250%;
+    left: -75%;
+    background: #fff;
+    overflow-y: auto;
+	overflow-x: hidden;
+}
+footer .chat ul li
+{
+	padding: 5px;
+}
+footer .chat ul li img
+{
+	width: 50px;
+	height: 50px;
+    margin: 0 auto;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+footer .chat ul li p
+{
+    padding: 0
+}
+footer .chat .form-group
+{
+	margin-bottom: 0;
+}
+.notifications .notification p
+{
+    color: #333;
+    font-size: 12px
+}
+.notifications .notification p:hover
+{
+    color: #000
+}
+footer .dropdown.open:after
+{
+    content: "";
+    position: absolute;
+    bottom: 33px;
+    left: 32%;
+    border-color: #009aff transparent transparent transparent;
+    border-width: 20px;
+    border-style: solid;
+}
+footer .settings
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 100%;
+    left: -15%;
+    background: #fff;
+}
+footer .setting ol
+{
+	padding-top: 25px;
+}
+footer .setting ol li
+{
+	border: none;
+	position: relative;
+}
+footer .setting ol li:before
+{
+    content: ""   
+}
+footer .settings form
+{
+	display: inline-flex;
+	padding: 0 10px;
+}
+footer .setting ol li textarea
+{
+	width: 140%;
+}
+footer .setting ol .close
+{
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+footer .setting ol .close i
+{
+	color: #E41B17
+}
+footer .setting ol .add
+{
+    display: block;
+    margin-left: 40%;
+    cursor: pointer;
+}
+footer .setting ol .add i
+{
+	color: #999;
+}
+
+/* End Footer */
+
+
+/* Start Section Copyright */
+
+.copyright
+{
+    background:#000;
+    color:#aaa;
+    padding:10px 0;
+    font-size:18px
+}
+.copyright p
+{
+	margin: 0;
+	text-align: left;
+}
+
+/* End Section Copyright */
+
+
+/* Start Scrollup */
+
+.scroll-top
+{
+    position:fixed;
+    right:15px;
+    bottom:2px;
+    z-index:9999;
+    display: none;
+	border-radius: 25px;
+    cursor:pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.scroll-top:hover
+{
+    color: #fff;
+}
+.scroll-top p
+{
+	float: left;
+	margin: 15px 5px 10px;
+    font-size: 16px;
+	display: none;
+}
+.scroll-top .fa-3x
+{
+    width:50px;
+    height:50px;
+    color:#fff;
+    text-align:center;
+	font-size: 36px;
+	line-height: 50px;
+	border-radius: 50%;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.scroll-top .fa-3x:hover
+{
+	background: #fff;
+}
+
+/* End Scrollup */

@@ -1,0 +1,149 @@
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand span,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+
+.interface .btn-danger:focus, .interface .btn-danger.focus,
+.interface .btn-danger:active:hover, .interface .btn-danger.active:hover, .interface .open > .dropdown-toggle.btn-danger:hover,
+.interface .btn-danger:active:focus, .interface .btn-danger.active:focus, .interface .open > .dropdown-toggle.btn-danger:focus,
+.interface .btn-danger:active.focus, .interface .btn-danger.active.focus, .interface .open > .dropdown-toggle.btn-danger.focus,
+.interface .btn-danger:hover,
+
+.contact-us .btn-danger:focus, .contact-us .btn-danger.focus,
+.contact-us .btn-danger:active:hover, .contact-us .btn-danger.active:hover, .contact-us .open > .dropdown-toggle.btn-danger:hover,
+.contact-us .btn-danger:active:focus, .contact-us .btn-danger.active:focus, .contact-us .open > .dropdown-toggle.btn-danger:focus,
+.contact-us .btn-danger:active.focus, .contact-us .btn-danger.active.focus, .contact-us .open > .dropdown-toggle.btn-danger.focus,
+.contact-us .btn-danger:hover,
+
+.features i,
+.rate button,
+.contact-us .h1,
+.our-professors span,
+.register .h1,
+
+/* Start Home */
+.global .fa-globe,
+.global .courses-contents .posts .fa,
+/* End Home */
+
+/* Start Courses */
+.our-courses .carousel-control,
+.our-courses .courses-contents .posts .fa,
+/* End Courses */
+
+/* Start Profile */
+.academic-id .academic-card h2,
+.materials .h2,
+.term-data .btn-danger,
+.term-data .btn-danger:hover, .term-data .btn-danger:focus, .term-data .btn-danger:active:hover,
+.term-data .btn-danger.active:hover, .term-data .open > .dropdown-toggle.btn-danger:hover, .term-data .btn-danger:active:focus,
+.term-data .btn-danger.active:focus, .term-data .open > .dropdown-toggle.btn-danger:focus, .term-data .btn-danger:active.focus,
+.term-data .btn-danger.active.focus, .term-data .open > .dropdown-toggle.btn-danger.focus,
+.timetable .times h3,
+.favourites .h1,
+.favourites .carousel-control,
+.favourites .courses-contents .posts .fa,
+/* End Profile */
+
+.option-box .gear-check,
+.copyright span,
+.scroll-top,
+.scroll-top .fa-3x:hover
+{
+    color:#009AFF;
+}
+
+
+
+.sk-cube-grid .sk-cube,
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li:hover,
+.carousel-indicators li.active,
+.features .item:hover i,
+
+/* Start Settings */
+.Acount_Setting_Collaps  .Right_Div .btn-primary,
+.Acount_Setting_Collaps  .Right_Div .Type ul li .select_icon,
+.Acount_Setting_Collaps  .Lift_Div,
+form label span,
+.Privacy_Collaps .Lift_Div,
+.Privacy_Collaps .Right_Div .btn-primary,
+.Notificatin_Collaps .Lift_Div,
+.Notificatin_Collaps .Right_Div .btn-primary,
+/* End Settings */
+
+.scroll-top:hover,
+.scroll-top .fa-3x
+{
+    background:#009AFF;
+}
+
+
+
+.navbar-default .navbar-toggle,
+
+.interface .btn-danger:hover,
+.interface .btn-danger:focus, .interface .btn-danger.focus,
+.interface .btn-danger:active:hover, .interface .btn-danger.active:hover, .interface .open > .dropdown-toggle.btn-danger:hover,
+.interface .btn-danger:active:focus, .interface .btn-danger.active:focus, .interface .open > .dropdown-toggle.btn-danger:focus,
+.interface .btn-danger:active.focus, .interface .btn-danger.active.focus, .interface .open > .dropdown-toggle.btn-danger.focus,
+
+.contact-us .btn-danger:hover,
+.contact-us .btn-danger:focus, .contact-us .btn-danger.focus,
+.contact-us .btn-danger:active:hover, .contact-us .btn-danger.active:hover, .contact-us .open > .dropdown-toggle.btn-danger:hover,
+.contact-us .btn-danger:active:focus, .contact-us .btn-danger.active:focus, .contact-us .open > .dropdown-toggle.btn-danger:focus,
+.contact-us .btn-danger:active.focus, .contact-us .btn-danger.active.focus, .contact-us .open > .dropdown-toggle.btn-danger.focus,
+
+.our-professors .carousel-indicators li.active,
+
+/* Start Settings */
+.Acount_Setting_Collaps  .Right_Div .btn-primary,
+.Privacy_Collaps .Right_Div .btn-primary,
+.Notificatin_Collaps .Right_Div .btn-primary,
+/* End Settings */
+
+/* Start Profile */
+.time-table .carousel-indicators li,
+.time-table .carousel-indicators .active,
+.term-data .btn-danger,
+.term-data .btn-danger:hover, .term-data .btn-danger:focus, .term-data .btn-danger:active:hover,
+.term-data .btn-danger.active:hover, .term-data .open > .dropdown-toggle.btn-danger:hover, .term-data .btn-danger:active:focus,
+.term-data .btn-danger.active:focus, .term-data .open > .dropdown-toggle.btn-danger:focus, .term-data .btn-danger:active.focus,
+.term-data .btn-danger.active.focus, .term-data .open > .dropdown-toggle.btn-danger.focus,
+/* End Profile */
+
+.scroll-top .fa-3x:hover
+{
+    border: 2px solid #009AFF;
+}
+
+
+
+.rate .carousel-indicators li
+{
+    border: 1px solid #009AFF;
+}
+
+
+
+.show-footer
+{
+    background: -moz-radial-gradient(circle , #009AFF 20%, #04558A);
+    background: radial-gradient(circle , #009AFF 20%, #04558A);
+    border: solid 2px #04558A;
+}

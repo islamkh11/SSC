@@ -1,0 +1,787 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body
+{
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	background:#444;
+}
+body,h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6,.lead,p,span,a
+{
+	font-family: 'Droid Sans', sans-serif ;
+}
+
+/* Start Tool Box */
+
+.option-box
+{
+    position: fixed;
+    top: 75px;
+    left: 17px;
+    z-index: 9999;
+}
+.option-box .color-option
+{
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    display: none;
+}
+.option-box .color-option ul li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.option-box .gear-check
+{
+    padding: 25px 0;
+    cursor: pointer;
+}
+
+/* End Tool Box */
+
+/* Start Navbar */
+
+.navbar
+{
+    border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar-nav
+{
+    margin: 0 30px 0 0;
+}
+.navbar-brand
+{
+    padding: 20px 0px;
+}
+.navbar-inverse
+{
+	background: #000;
+	border-color: #000;
+}
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand
+{
+    margin-left: 80px;
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+    padding-top: 20px;
+    margin-left:20px;
+    color:#fff;
+    font-size:18px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus
+{
+	background: none;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    color:#fff;
+    background: none;
+    font-size:18px;
+}
+.navbar-right .dropdown-menu
+{
+    left: 20px;
+    right: auto;
+    background: #222;
+	color: #fff;
+}
+.navbar-right .dropdown-menu > li > a
+{
+    color: #fff;
+}
+.navbar-right .dropdown-menu > li > a:hover
+{
+	color: #fff;
+    padding-left: 27px;
+    -webkit-transition:padding .4s ease-in;
+    -moz-transition:padding .4s ease-in;
+    -o-transition:padding .4s ease-in;
+    transition:padding .4s ease-in;
+}
+
+/* End Navbar */
+
+.navbar-inverse
+{
+	background: #000;
+	border-color: #000;
+}
+.wrapper
+{
+	background:#FFF;
+	margin-bottom: 42px;
+}
+.divider-solid
+{
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #333333;
+    box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px;
+    padding-top:35px;
+	margin-bottom:35px;
+}
+.panel
+{
+	background:none;
+	border:none;
+}
+.navigation_Selection .nav
+{
+	background:#444;
+}
+.navigation_Selection .nav
+{
+	text-align: center;
+}
+.nav-tabs > li
+{
+	float: none;
+	display: inline-block;
+}
+.tab-content
+{
+
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+
+}
+.nav-tabs > li > a
+{
+	color:rgba(255,255,255,1.00);
+    border:none;
+}
+.nav-tabs > li > a:hover
+{
+	background:none;
+}
+.Acount_Setting_Collaps
+{
+	padding-top:50px;
+}
+.Acount_Setting_Collaps  .Lift_Div
+{
+	padding:30px;
+	margin-bottom:30px;
+}
+.Acount_Setting_Collaps  .Lift_Div h3
+{
+	color:#fff;
+}
+.Acount_Setting_Collaps  .Lift_Div h4
+{
+	color:#fff;
+}
+.Acount_Setting_Collaps  .Lift_Div p
+{
+	color:#eee;
+}
+.Acount_Setting_Collaps  .Lift_Div a
+{
+	color:#5897FB;
+	font-weight:bold;
+}
+.Acount_Setting_Collaps  .Lift_Div .btn-default
+{
+	background-color:#000;
+	color:#fff;
+	margin-top:20px;
+    padding: 2px 12px;
+    border-color:#000;
+}
+.Acount_Setting_Collaps  .Lift_Div .glyphicon-send
+{
+    font-size: 33px;
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 60px;
+    text-align: center;
+    height: 64px;
+    width: 64px;
+    color: #000;
+}
+.Acount_Setting_Collaps  .Lift_Div .fa-question
+{
+    font-size: 33px;
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 60px;
+    text-align: center;
+    height: 64px;
+    width: 64px;
+    color: #000;
+}
+.Acount_Setting_Collaps  .Right_Div
+{
+	height:500px;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-title
+{
+	font-weight:bold;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-default > .panel-heading
+{
+	background-color:transparent;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a
+{
+	text-decoration:none;
+	padding-right:600px;
+	color:#333;
+    font-weight:bold;
+}
+.Acount_Setting_Collaps  .Right_Div .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+	color:#333;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group
+.Acount_Setting_Collaps  .Right_Div .panel-group .panel
+{
+    border-top:none;
+}
+.Acount_Setting_Collaps  .Right_Div .panel-group .panel
+{
+	border-color:rgba(255,255,255,1.00);
+}
+
+.Acount_Setting_Collaps  .Right_Div form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+}
+form label span
+{
+    display: inline-block;
+    color: #FFF;
+    font-size: 12px;
+    border-radius: 12px;
+    height: 15px;
+    width: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 17px;
+}
+.Acount_Setting_Collaps  .Right_Div input
+{
+	padding: 7px;
+    color: #7f7f7f;
+    font-size: 14px;
+	line-height: 27px;
+	margin-bottom:20px;
+	width:100%;
+    border-radius: 3px;
+    border:1px solid #333;
+}
+.Acount_Setting_Collaps  .Right_Div select
+{
+	padding: 7px;
+    color: #7f7f7f;
+    font-size: 14px;
+	line-height: 27px;
+	margin-bottom:20px;
+	width:100%;
+    border-radius: 3px;
+    border:1px solid #333;
+}
+.Acount_Setting_Collaps  .Right_Div .day
+{
+	width:32.333333%;
+}
+.Acount_Setting_Collaps  .Right_Div .Buttons
+{
+	float:right;
+	margin-top:50px;
+}
+.Acount_Setting_Collaps  .Right_Div .Buttons_3
+{
+	float:right;
+	margin-top:100px;
+}
+.Acount_Setting_Collaps  .Right_Div .btn-primary
+{
+    padding: 2px 12px;
+}
+.Acount_Setting_Collaps  .Right_Div .reset
+{
+    border: 0;
+    color: #7F7F7F;
+    background: transparent;
+    font-weight: 400;
+}
+.Acount_Setting_Collaps  .Right_Div .reset:hover
+{
+    background: transparent;
+    color: #0CA7ff;
+    border: 0;
+    box-shadow: none;
+    background-image: none;
+}
+.modal-body
+{
+    text-align: center;
+}
+.modal-body .lead
+{
+	margin-right:20px;
+}
+.modal-body .glyphicon-ok:before
+{
+	color:rgba(0,255,36,1.00);
+	font-size:36px;
+}
+.Acount_Setting_Collaps  .Right_Div .Type ul li
+{
+	position:relative;
+	display: inline-block;
+}
+.Acount_Setting_Collaps  .Right_Div .Type li input
+{
+	display:none
+}
+.Acount_Setting_Collaps  .Right_Div .Type input[type='checkbox']
+{
+	vertical-align: middle;
+}
+.Acount_Setting_Collaps  .Right_Div .Type li label
+{
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color:#333;
+    border-radius: 2px;
+    padding: 7px 10px;
+    margin: 10px 5px;
+    display: block;
+	color:#fff;
+}
+.Acount_Setting_Collaps  .Right_Div .Type ul li .select_icon
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+	height:20px;
+	width:20px;
+	color:rgba(255,255,255,1.00);
+	border-radius:10px;
+	text-align: center;
+    line-height: 19px;
+}
+.Privacy_Collaps
+{
+	padding-top:50px;
+}
+.Privacy_Collaps .Lift_Div
+{
+	height:500px;
+	padding:30px;
+	margin-bottom:30px;
+}
+.Privacy_Collaps .Lift_Div h3
+{
+	color:#fff;
+}
+.Privacy_Collaps .Lift_Div p
+{
+	color:#fff;
+}
+.Privacy_Collaps .Right_Div .radio label, .checkbox label
+{
+    margin-bottom: 10px;
+    margin-top: 30px;
+	margin-left:20px;
+    color: #444;
+    font-weight: bold;
+}
+.Privacy_Collaps .Right_Div .Buttons
+{
+	float:right;
+	margin-top:50px;
+}
+.Privacy_Collaps .Right_Div .btn-primary
+{
+    padding: 2px 12px;
+}
+.Privacy_Collaps .Right_Div .reset
+{
+    border: 0;
+    color: #7F7F7F;
+    background: transparent;
+    font-weight: 400;
+}
+.Privacy_Collaps .Right_Div .Right_Div .reset:hover
+{
+    background: transparent;
+    color: #0CA7ff;
+    border: 0;
+    box-shadow: none;
+    background-image: none;
+}
+.Notificatin_Collaps
+{
+	padding-top:50px;
+}
+.Notificatin_Collaps .Lift_Div
+{
+	height:500px;
+	padding:30px;
+	margin-bottom:30px;
+}
+.Notificatin_Collaps .Lift_Div h3
+{
+	color:#fff;
+}
+.Notificatin_Collaps .Lift_Div p
+{
+	color:#fff;
+}
+.Notificatin_Collaps .Right_Div .scheckbox label, .checkbox label
+{
+    margin-bottom: 10px;
+    margin-top: 30px;
+	margin-left:20px;
+    color: #444;
+    font-weight: bold;
+}
+.Notificatin_Collaps .Right_Div input[type="checkbox"]
+{
+	margin-left:150px;
+}
+.Notificatin_Collaps .Right_Div .Buttons
+{
+	float:right;
+	margin-top:50px;
+}
+.Notificatin_Collaps .Right_Div .btn-primary
+{
+    padding: 2px 12px;
+}
+.Notificatin_Collaps .Right_Div .reset
+{
+    border: 0;
+    color: #7F7F7F;
+    background: transparent;
+    font-weight: 400;
+}
+.Notificatin_Collaps .Right_Div .reset:hover
+{
+    background: transparent;
+    color: #0CA7ff;
+    border: 0;
+    box-shadow: none;
+    background-image: none;
+}
+
+
+/* Start Footer */
+
+.show-footer
+{
+    width: 70px;
+    height: 70px;
+    bottom: -40px;
+    position: fixed;
+    left: 47%;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: bottom 0.5s;
+    -moz-transition: bottom 0.5s;
+    -o-transition: bottom 0.5s;
+    transition: bottom 0.5s;
+    cursor: pointer;
+	z-index: 999999;
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 0px;
+    height: 50px;
+    background-color: #020B13;
+    -webkit-transition: max-height 0.5s;
+    -moz-transition: max-height 0.5s;
+    -o-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+    z-index: 9999999;
+}
+.show-footer.active
+{
+    bottom: 10px;
+}
+.show-footer.active + footer
+{
+    max-height: 50px;
+}
+footer form
+{
+    padding: 8px;
+}
+footer .fa-2x
+{
+    font-size: 32px;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+}
+footer .dropdown-menu
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 120%;
+    left: -10%;
+    background: #ddd;
+}
+footer .dropdown-menu ul
+{
+	list-style: none;
+	padding-left: 0;
+}
+footer .dropdown-menu li
+{
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    margin-bottom: 5px;
+	cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+footer .dropdown-menu ul > li > a:hover,
+footer .dropdown-menu ul > li:hover a,
+footer .dropdown-menu ul > li:hover 
+{
+    color: #fff;
+}
+footer .dropdown-menu .profile-info
+{
+    cursor: pointer;
+	position: relative;
+}
+footer .dropdown-menu ul li img
+{
+    background: #fff;
+	width: 100%;
+    height: 100px;
+    display: block;
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+}
+footer .dropdown-menu ul li h5
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(2,2,2,0.6);
+	color: #eee;
+    padding: 10px 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+footer .dropdown-menu ul li .message
+{
+    padding: 20px 30px 0 0;
+}
+footer .dropdown-menu ul li p
+{
+    text-align: center;
+    margin: 0 0 20px;
+	font-size: 16px;
+}
+footer .dropdown-menu ul li a:hover
+{
+    text-decoration: none;
+}
+footer .dropdown-menu textarea
+{
+	resize: none;
+	min-height: 82px;
+}
+footer .messages,
+footer .notification,
+footer .chat,
+footer .setting
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 400%;
+    max-height: 500px;
+    left: -150%;
+    background: #fff;
+    overflow-y: auto;
+	overflow-x: hidden;
+}
+footer .chat ul li
+{
+	padding: 5px;
+}
+footer .chat ul li img
+{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+footer .chat .user-name
+{
+	float: left;
+}
+footer .chat .user-name:hover
+{
+	background: #42a5f5
+}
+footer .chat .me:hover
+{
+	background: #E41B17
+}
+footer .chat .me,
+footer .chat .me img
+{
+	float: right;
+}
+footer .chat .form-group
+{
+	margin-bottom: 0;
+}
+footer .settings
+{
+    bottom: 100%;
+    top: inherit;
+    min-width: 100%;
+    left: -15%;
+    background: #fff;
+}
+footer .setting ol
+{
+	padding-top: 25px;
+}
+footer .setting ol li
+{
+	border: none;
+	position: relative;
+}
+footer .setting ol li:before
+{
+    content: ""   
+}
+footer .settings form
+{
+	display: inline-flex;
+	padding: 0 10px;
+}
+footer .setting ol li textarea
+{
+	width: 230%;
+}
+footer .setting ol .close
+{
+	position: absolute;
+    top: 0;
+    right: 33px;
+}
+footer .setting ol .close i
+{
+	color: #E41B17
+}
+footer .setting ol .add
+{
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+footer .setting ol .add i
+{
+	color: #999;
+}
+
+/* End Footer */
+
+
+/* Start Section Copyright */
+
+.copyright
+{
+    background:#000;
+    color:#aaa;
+    padding:10px 0;
+    font-size:18px
+}
+.copyright p
+{
+	margin: 0;
+	text-align: left;
+}
+
+/* End Section Copyright */
+
+
+/* Start Scrollup */
+
+.scroll-top
+{
+    position:fixed;
+    right:15px;
+    bottom:2px;
+    z-index:9999;
+    display: none;
+	border-radius: 25px;
+    cursor:pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.scroll-top:hover
+{
+    color: #fff;
+}
+.scroll-top p
+{
+	float: left;
+	margin: 10px 5px 10px;
+	display: none;
+}
+.scroll-top .fa-3x
+{
+    width:50px;
+    height:50px;
+    color:#fff;
+    text-align:center;
+	font-size: 36px;
+	line-height: 1.2;
+	border-radius: 50%;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+.scroll-top .fa-3x:hover
+{
+	background: #fff;
+}
+
+/* End Scrollup */
